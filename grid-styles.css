@@ -1,0 +1,16 @@
+*{
+    box-sizing:border-box;
+   }
+   body{
+    background-color: powderblue;
+}
+main{
+    display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+grid-gap: 2rem;
+}
+section{
+    border: 1px solid darkblue; background-color: aliceblue;
+}
+

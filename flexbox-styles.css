@@ -1,0 +1,17 @@
+*{
+  box-sizing:border-box;
+ }
+main{
+    display: flex;
+}
+section{
+  border:2px solid #42275777;
+  flex: 1;
+}
+section#appetizers{
+  flex: 2;
+}
+#appetizers, #mains, #desserts{
+  background-color: lavender;
+}
+h1{font-family: 'ballet';font-size: 70px;text-align: center;color:42275777;}
